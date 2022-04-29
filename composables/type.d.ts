@@ -3,5 +3,6 @@ interface Player {
   id: number,
   avatar: string,
   description: string,
-  isBanned: boolean
+  status?: 'connected' | 'disconnected',
+  isBanned?: boolean
 }
